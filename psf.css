@@ -317,6 +317,8 @@
 .theme-entry.psf div.sidebar div.logo>img {
     background-color: var(--sidebar-label-color);
     border-radius: 25px;
+    margin-top: 4px;
+    margin-left: 28px;
     padding: 20px;
     display: block!important;
     width: 100px;
