@@ -58,9 +58,9 @@ renderKPIs = () => {
     renderKPICard("active", 1);
     renderKPICard("overdue", 3);
     renderKPICard("urgent", 5);
-/*    renderActionCard("new", 1);
+    renderActionCard("new", 1);
     renderActionCard("reports", 2);
-    renderActionCard("admin", 3); */
+    renderActionCard("admin", 3);
     renderListView();
 }
 
