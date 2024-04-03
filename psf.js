@@ -58,9 +58,9 @@ renderKPIs = () => {
     renderKPICard("active", 1);
     renderKPICard("overdue", 3);
     renderKPICard("urgent", 5);
-    renderActionCard("new", 1);
-    renderActionCard("reports", 2);
-    renderActionCard("admin", 3);
+    renderActionCard("new", 1, "btnNavNew");
+    renderActionCard("reports", 2, "btnNavReporting");
+    renderActionCard("admin", 3, "btnNavAdmin");
     renderListView();
 }
 
@@ -79,7 +79,7 @@ renderKPICard = (name, cardIndex) => {
     [labelSpan, imageSpan, numberSpan, textSpan].forEach((e) => cardDiv.append(e));
 }
 
-renderActionCard = (name, cardIndex) => {
+renderActionCard = (name, cardIndex, btnName) => {
     $('<div id="' + name + '" class="actions card ' + name + '">').appendTo('div[name="tblKPIs"]')
     cardDiv = $('#' + name)
     labelSpan = $('.psf div.kpi .panel-body-wrapper div[name="tblResponsiveIcons"]> span[col="3"] > div > span[col="' + cardIndex + '"][row="1"]');
