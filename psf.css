@@ -527,32 +527,32 @@
 
 .theme-entry.psf div.kpi div.card.active .kpi-icon:after {
     content: 'speed';
-    color: #9586e1;
+    color: #ba375e;
 }
 
 .theme-entry.psf div.kpi div.card.urgent .kpi-icon:after {
     content: 'motion_sensor_urgent';
-    color: #d44a48;
+    color: #cead5f;
 }
 
 .theme-entry.psf div.kpi div.card.overdue .kpi-icon:after {
     content: 'crisis_alert';
-    color: #e7c754;
+    color: #c32128;
 }
 
 .theme-entry.psf div.kpi div.card.new .kpi-icon:after {
     content: 'add_notes';
-    color: #db8c4e;
+    color: #c69976;
 }
 
 .theme-entry.psf div.kpi div.card.reports .kpi-icon:after {
     content: 'lab_profile';
-    color: #5e9764;
+    color: #507f55;
 }
 
 .theme-entry.psf div.kpi div.card.admin .kpi-icon:after {
     content: 'admin_panel_settings';
-    color: #3571bf;
+    color: #5e7593;
 }
 
 
